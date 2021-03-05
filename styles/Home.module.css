@@ -120,3 +120,54 @@
     flex-direction: column;
   }
 }
+
+
+.input {
+  display: block;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button {
+  font-size: 1.2em;
+  color: white;
+  border: none;
+  padding: .4rem .7rem;
+  background: #0070f3;
+  border-radius: 2px;
+  margin-right: auto;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.formGroup {
+  margin: 10px;
+}
+
+.data {
+  border: 1px solid #CCC;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.github {
+  margin: 1rem auto;
+}
+
+.github > a {
+  color: blue;
+}
