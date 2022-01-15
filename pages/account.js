@@ -83,7 +83,7 @@ export default function Account({ query }) {
                 <title>Account</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <button className={styles.button} style={{ background: 'red', margin: 'none' }} onClick={() => logout()}>&larr; Выйти</button>
+            <button className={styles.button} style={{ background: 'black', borderRadius: '10px' }} onClick={() => logout()}>&larr; Выйти</button>
 
             {/* Add logout button */}
 

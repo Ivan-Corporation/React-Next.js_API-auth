@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Login</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -62,22 +62,14 @@ export default function Home() {
               <button onClick={(e) => login(e)} className={styles.button}>Войти</button>
             </form>
             <p>
-              Зайдите как пользователь через mock server
-              </p>
+              Зайдите для вывода данных с локального сервера
+            </p>
           </div>
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+
+
     </div>
   )
 }

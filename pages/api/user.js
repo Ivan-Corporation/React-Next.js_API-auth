@@ -1,7 +1,6 @@
 import data from '../../data'
 
 const allowedMethods = ['GET']
-
 export default (req, res) => {
     res.setHeader('Allow', allowedMethods)
 
@@ -17,8 +16,9 @@ export default (req, res) => {
 
     const { email } = data.find(user => user.name === name)
 
+
     return res.status(200).json({
         name,
-        email
+        email,
     })
 }

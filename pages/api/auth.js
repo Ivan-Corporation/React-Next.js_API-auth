@@ -16,7 +16,7 @@ export default (req, res) => {
 
     const {
         username,
-        password
+        password,
     } = body
 
     // Validate credentials middleware
