@@ -26,8 +26,10 @@ export default async (req, res) => {
     try {
         // Fetch access token from Github using code
         const { data } = await axios.post(url, {
-            client_id: '6032b552aea1c954232e',
-            client_secret: 'd921f117630b46930a91be22c6280ca67457f85b',
+            // Your client_id
+            client_id: '',
+            // Your client_secret
+            client_secret: '',
             code,
         }, {
             headers: {

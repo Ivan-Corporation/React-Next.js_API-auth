@@ -854,10 +854,10 @@
   "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz"
   "version" "4.2.6"
 
-"gradient-background@^1.3.2":
-  "integrity" "sha512-pv941HGXeXh7yp0B1BpQJs8hoFEUzWrzndxHoXVVfHeJCPdeKSyFV3oM/7c1x6j08XJ3fIDNvelHLwNWV6HAbg=="
-  "resolved" "https://registry.npmjs.org/gradient-background/-/gradient-background-1.3.2.tgz"
-  "version" "1.3.2"
+"gradient-background@^1.4.3":
+  "integrity" "sha512-5wtBkICHwzHlV8G2KHLTA47fPjY7j/l0gPl8d+FmpyIkFK/EGbwrubqpGr5+qK/J8Qdm2r298UBAY66miw86xw=="
+  "resolved" "https://registry.npmjs.org/gradient-background/-/gradient-background-1.4.3.tgz"
+  "version" "1.4.3"
   dependencies:
     "autoprefixer" "^10.4.2"
     "rollup-plugin-typescript2" "^0.31.2"
@@ -1697,6 +1697,11 @@
   "integrity" "sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew=="
   "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz"
   "version" "0.13.7"
+
+"repository-metrics@^3.7.5":
+  "integrity" "sha512-9Jwz4hfx0Yl3hjIyHMyPaFtH2sLxFMVz2nxOfc87midt8Q/h9AnQPanF83ykyGGccmUWqxhyHtBwcP07WTeV8A=="
+  "resolved" "https://registry.npmjs.org/repository-metrics/-/repository-metrics-3.7.5.tgz"
+  "version" "3.7.5"
 
 "resolve@^1.20.0":
   "integrity" "sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw=="

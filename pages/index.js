@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import React from 'react'
 import { useRouter } from 'next/router'
 import api from '../api'
+import { RepositoryMetrics } from 'repository-metrics'
 
 
 export default function Home() {
@@ -35,7 +36,7 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-
+          <RepositoryMetrics owner='Ivan-Corporation' repo='React-Next.js_API-auth' theme='light' />
           <h1 className={styles.title}>
             React API Авторизация
           </h1>
