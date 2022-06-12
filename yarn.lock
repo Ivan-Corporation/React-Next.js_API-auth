@@ -837,6 +837,11 @@
   "resolved" "https://registry.npmjs.org/github-from-package/-/github-from-package-0.0.0.tgz"
   "version" "0.0.0"
 
+"glitch-text@^1.5.1":
+  "integrity" "sha512-zzBsANZTesXhb2YROdJKnyz0vXlO0vbxHWyJSQEtqh3Fhfu8rgud8abdoQQ/9moGem3RIyYkGaz3YgfP7SVv7w=="
+  "resolved" "https://registry.npmjs.org/glitch-text/-/glitch-text-1.5.1.tgz"
+  "version" "1.5.1"
+
 "glob-parent@~5.1.0":
   "integrity" "sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ=="
   "resolved" "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.1.tgz"
@@ -854,10 +859,10 @@
   "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz"
   "version" "4.2.6"
 
-"gradient-background@^1.4.3":
-  "integrity" "sha512-5wtBkICHwzHlV8G2KHLTA47fPjY7j/l0gPl8d+FmpyIkFK/EGbwrubqpGr5+qK/J8Qdm2r298UBAY66miw86xw=="
-  "resolved" "https://registry.npmjs.org/gradient-background/-/gradient-background-1.4.3.tgz"
-  "version" "1.4.3"
+"gradient-background@^1.6.3":
+  "integrity" "sha512-p6/ZQsim2Ypybjy+Amzxtg3noADGtZWkGbVkq1vCh6nI3UK/niTVtDeqRhM412By4ds5cDYt8/LBtH1v7jj0fw=="
+  "resolved" "https://registry.npmjs.org/gradient-background/-/gradient-background-1.6.3.tgz"
+  "version" "1.6.3"
   dependencies:
     "autoprefixer" "^10.4.2"
     "rollup-plugin-typescript2" "^0.31.2"

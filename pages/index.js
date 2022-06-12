@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import React from 'react'
+import React, { useState } from 'react'
 import { useRouter } from 'next/router'
 import api from '../api'
 import { RepositoryMetrics } from 'repository-metrics'
-
+import { GlitchText } from 'glitch-text'
 
 export default function Home() {
 
@@ -38,11 +38,13 @@ export default function Home() {
         <main className={styles.main}>
           <RepositoryMetrics owner='Ivan-Corporation' repo='React-Next.js_API-auth' theme='light' />
           <h1 className={styles.title}>
-            React API Авторизация
+            <GlitchText theme={'blue'} text={'React API Authorization'} />
+
+
           </h1>
           <div className={styles.grid}>
             <div className={styles.card}>
-              <h3>Логин &rarr;</h3>
+              <h3>Login &rarr;</h3>
               <form>
 
                 <div className={styles.formGroup}>
@@ -57,7 +59,7 @@ export default function Home() {
                     name="email" />
                 </div>
                 <div className={styles.formGroup}>
-                  <label htmlFor="password">Пароль</label>
+                  <label htmlFor="password">Password</label>
                   <input
                     onChange={(e) => setPassword(e.target.value)}
                     className={styles.input}
@@ -65,10 +67,10 @@ export default function Home() {
                     id="password"
                     name="password" />
                 </div>
-                <button onClick={(e) => login(e)} className={styles.button}>Войти</button>
+                <button onClick={(e) => login(e)} className={styles.button}>Enter</button>
               </form>
               <p>
-                Зайдите для вывода данных с локального сервера
+                Login to see MOCK (data from local server)
               </p>
             </div>
           </div>
