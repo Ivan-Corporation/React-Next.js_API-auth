@@ -968,6 +968,16 @@
   "resolved" "https://registry.npmjs.org/ini/-/ini-1.3.8.tgz"
   "version" "1.3.8"
 
+"intro.js-react@^0.6.0":
+  "integrity" "sha512-Ozkx1w89zXPM4Uufc3eoolq0svLQLoDon28YaxqhN1ZmS0oG5Fb2Tui6AZQJXDY8HC2kwq+Smzv3QXa0kf5ZGg=="
+  "resolved" "https://registry.npmjs.org/intro.js-react/-/intro.js-react-0.6.0.tgz"
+  "version" "0.6.0"
+
+"intro.js@>=2.5.0":
+  "integrity" "sha512-zwWl/duTh00eeNcZRU4o4/xxloNYPFKs4n4lMRDNx59jZr+qRI0jSOnzqYMOuVftD4beGrmxBHz4k8qp9/dCMA=="
+  "resolved" "https://registry.npmjs.org/intro.js/-/intro.js-5.1.0.tgz"
+  "version" "5.1.0"
+
 "is-arrayish@^0.3.1":
   "integrity" "sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ=="
   "resolved" "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz"
@@ -1635,7 +1645,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
-"react@^16.11.0 || ^17.0.0", "react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.9.0 || ^17", "react@>=16", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.1":
+"react@^16.11.0 || ^17.0.0", "react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.9.0 || ^17", "react@>=0.14.0", "react@>=16", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.1":
   "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.1.tgz"
   "version" "17.0.1"
