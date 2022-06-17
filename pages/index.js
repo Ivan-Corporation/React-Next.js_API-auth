@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 import api from '../api'
 import { RepositoryMetrics } from 'repository-metrics'
 import { GlitchText } from 'glitch-text'
-import 'intro.js/introjs.css';
 
 // import { Steps, Hints } from 'intro.js-react';
 import dynamic from 'next/dynamic';
